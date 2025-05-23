@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tetsbench_lg_func_synth.v" \
+"../../../../../logic_gates.srcs/sim_1/new/tetsbench_lg.v" \
+
+# Do not sort compile order
+nosort
